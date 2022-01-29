@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*flex*/
+/*
+.pagina{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.content{
+    width: 1200px;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.imagenes{
+    width: 500px;
+    margin: 10px;
+}
+
+.imagenes img{
+    width: 100%;
+}
+*/
+
+/*GRID*/
+
+/*
+.content{
+    width: 50%;
+    background: rgba(77, 77, 77, 0.466);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap:20px;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+/*EFECTO DE CAMPANA*/
+
+/*
+.pagina {
+    height: 100vh;
+    display: flex;
+    background: black;
+}
+.pagina i{
+    margin: auto;
+    font-size: 300px;
+    color: white;
+}
+
+.pagina i:hover{
+    transition: all .2s ease-in-out;
+    background: radial-gradient(#F09819,#FF512F);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0px 0px 300px rgb(255, 0, 0);
+}
+*/
+
+.pagina{
+    width: 100%;
+    height: 100vh;
+    background: url("https://fondosmil.com/fondo/7213.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+}
+
+.contenido{
+    width: 90%;
+    background:rgba(0, 0, 0, 0.705);
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow:  0 0 10px black;
+}
+
+.ico{
+    /*background: red;*/    
+}
+
+.ico i{
+    width: 90%;
+    font-size: 40px;
+    margin: 20px 0;
+    background: rgb(240, 90, 220);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.contenido h1 {
+    color:white
+}
+
+.contenido span {
+    color:rgb(240, 90, 220);
+}
+
+.formulario input[type="text"]{
+    display: block;
+    margin: 40px auto;
+    width: 80%;
+    padding: 10px;
+    border:none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.formulario button{
+    width: 80%;
+    padding: 12px;
+    margin: 20px 0;
+    background: rgb(240, 90, 220);
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.formulario button:hover{
+    box-shadow: 0 0 10px rgb(240, 90, 220);
+}
+
+.formulario p{
+    margin: 20px 0;
+    color: white;
+}
+
